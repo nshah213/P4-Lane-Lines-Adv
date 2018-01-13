@@ -106,7 +106,8 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 ![alt text][video1]
 
-Here's a [link to my video result](https://youtu.be/TEVjFoscgBM)
+
+![link to my video result](https://youtu.be/TEVjFoscgBM)
 
 ---
 
