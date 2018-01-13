@@ -98,7 +98,6 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 ![alt text][image6b]
 
----
 
 ### Pipeline (video)
 
