@@ -13,16 +13,16 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: 
-[image2]: 
-[image3]: 
-[image4]: 
-[image5a]: 
-[image5b]: 
-[image6a]: 
-[image6b]: 
-[video1]: 
-[video2]: 
+[image1]: ./output_images/camera_undistort.png "Undistorted"
+[image2]: ./output_images/perspective_transform_result.jpg "Road Transformed"
+[image3]: ./output_images/current_masking_pipeline.png "Binary Pipeline"
+[image4]: ./output_images/perspective_transform_result.jpg "Warp Example"
+[image5a]: ./output_images/lane_detection_mask_warped_no_prior_information.png "Fit Visual windowing no prior"
+[image5b]: ./output_images/lane_detection_mask_warped_with_prior_information.png "Fit Visual windowing w prior"
+[image6a]: ./output_images/lane_line_detection_no_prior_information.jpg "Output no prior"
+[image6b]: ./output_images/lane_line_detection_with_prior_information.jpg "Output w prior"
+[video1]: ./result/solution_project_video.mp4 "Project Video Output"
+[video2]: ./result/solution_challenge_video.mp4 "Challenge Video Output"
 [video3]: ./result/solution_even_harder_challenge_video.mp4 "Even Harder Challenge Video Output"
 
 
@@ -33,20 +33,20 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![alt text](./output_images/camCal_Images_and_Results.png "Undistorted")
+![alt text](./test_image_output/output5.png "Lane detection pipeline")
 
 ### Pipeline (single images)
 
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
-![alt text](./output_images/perspective_transform_result.jpg "Road Transformed")
+![alt text][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
 I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  Here's an example of my output for this step. 
 
-![alt text](./output_images/current_masking_pipeline.png "Binary Pipeline")
+![alt text][image3]
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
@@ -76,15 +76,15 @@ This resulted in the following source and destination points:
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
-![alt text](./output_images/perspective_transform_result.jpg "Warp Example")
+![alt text][image4]
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
 Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
 
-![alt text](./output_images/lane_detection_mask_warped_no_prior_information.png "Fit Visual windowing no prior")
+![alt text][image5a]
 
-![alt text](./output_images/lane_detection_mask_warped_with_prior_information.png "Fit Visual windowing w prior")
+![alt text][image5b]
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -94,9 +94,9 @@ I did this in lines # through # in my code in `my_other_file.py`
 
 I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
 
-![alt text](./output_images/lane_line_detection_no_prior_information.png "Output no prior")
+![alt text][image6a]
 
-![alt text](./output_images/lane_line_detection_with_prior_information.png "Output w prior")
+![alt text][image6b]
 
 ---
 
@@ -104,7 +104,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-![alt text](./result/solution_project_video.mp4 "Project Video Output")
+![alt text][video1]
 
 Here's a [link to my video result](https://youtu.be/TEVjFoscgBM)
 
@@ -114,7 +114,6 @@ Here's a [link to my video result](https://youtu.be/TEVjFoscgBM)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.
+Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
 
-![alt text](./result/solution_challenge_video.mp4 "Challenge Video Output")
 Here's a [link to my video result](https://youtu.be/lt7cC0eb5xQ)
