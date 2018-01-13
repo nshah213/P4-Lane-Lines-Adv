@@ -13,12 +13,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/camera_undistort.png "Undistorted calibration image"
-[image2]: ./output_images/video_image_undistort_result.png "Undistorted camera video frame"
+[image1]: ./output_images/camCal_Images_and_Results.png "Undistorted"
+[image2]: ./output_images/perspective_transform_result.jpg "Road Transformed"
 [image3]: ./output_images/current_masking_pipeline.png "Binary Pipeline"
 [image4]: ./output_images/perspective_transform_result.jpg "Warp Example"
-[image5a]: ./output_images/lane_detection_mask_warped_no_prior_information.png "Fit Visual- windowing no prior"
-[image5b]: ./output_images/lane_detection_mask_warped_with_prior_information.png "Fit Visual- windowing w prior"
+[image5a]: ./output_images/lane_detection_mask_warped_no_prior_information.png "Fit Visual windowing no prior"
+[image5b]: ./output_images/lane_detection_mask_warped_with_prior_information.png "Fit Visual windowing w prior"
 [image6a]: ./output_images/lane_detection_mask_warped_no_prior_information.png "Output no prior"
 [image6b]: ./output_images/lane_detection_mask_warped_with_prior_information.png "Output w prior"
 [video1]: ./result/solution_project_video.mp4 "Project Video Output"
