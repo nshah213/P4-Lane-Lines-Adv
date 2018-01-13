@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image5b]: ./output_images/lane_detection_mask_warped_with_prior_information.png "Fit Visual windowing w prior"
 [image6a]: ./output_images/lane_line_detection_no_prior_information.jpg "Output no prior"
 [image6b]: ./output_images/lane_line_detection_with_prior_information.jpg "Output w prior"
-[video1]: ./result/solution_project_video.mp4 "Project Video Output"
+[video1]: https://youtu.be/TEVjFoscgBM "Project Video Output"
 [video2]: ./result/solution_challenge_video.mp4 "Challenge Video Output"
 [video3]: ./result/solution_even_harder_challenge_video.mp4 "Even Harder Challenge Video Output"
 
@@ -105,9 +105,6 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 ![alt text][video1]
-
-
-![link to my video result](https://youtu.be/TEVjFoscgBM)
 
 ---
 
