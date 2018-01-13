@@ -17,10 +17,10 @@ The goals / steps of this project are the following:
 [image2]: ./output_images/perspective_transform_result.jpg "Road Transformed"
 [image3]: ./output_images/current_masking_pipeline.png "Binary Pipeline"
 [image4]: ./output_images/perspective_transform_result.jpg "Warp Example"
-[image5a]: ./output_images//home/nas/CarND-Advanced-Lane-Lines/output_images/lane_detection_mask_warped_no_prior_information.png "Fit Visual- windowing no prior"
-[image5b]: ./output_images//home/nas/CarND-Advanced-Lane-Lines/output_images/lane_detection_mask_warped_with_prior_information.png "Fit Visual- windowing w prior"
-[image6a]: ./output_images//home/nas/CarND-Advanced-Lane-Lines/output_images/lane_detection_mask_warped_no_prior_information.png "Output no prior"
-[image6b]: ./output_images//home/nas/CarND-Advanced-Lane-Lines/output_images/lane_detection_mask_warped_with_prior_information.png "Output w prior"
+[image5a]: ./output_images/lane_detection_mask_warped_no_prior_information.png "Fit Visual windowing no prior"
+[image5b]: ./output_images/lane_detection_mask_warped_with_prior_information.png "Fit Visual windowing w prior"
+[image6a]: ./output_images/lane_detection_mask_warped_no_prior_information.png "Output no prior"
+[image6b]: ./output_images/lane_detection_mask_warped_with_prior_information.png "Output w prior"
 [video1]: ./result/solution_project_video.mp4 "Project Video Output"
 [video2]: ./result/solution_challenge_video.mp4 "Challenge Video Output"
 [video3]: ./result/solution_even_harder_challenge_video.mp4 "Even Harder Challenge Video Output"
@@ -82,7 +82,9 @@ I verified that my perspective transform was working as expected by drawing the 
 
 Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
 
-![alt text][image5]
+![alt text][image5a]
+
+![alt text][image5b]
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -92,7 +94,9 @@ I did this in lines # through # in my code in `my_other_file.py`
 
 I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
 
-![alt text][image6]
+![alt text][image6a]
+
+![alt text][image6b]
 
 ---
 
@@ -100,7 +104,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./result/solution_project_video.mp4)
 
 ---
 
