@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./output_images/camera_undistort.png "Undistorted"
-[image2]: ./output_images/perspective_transform_result.jpg "Road Transformed"
+[image2]: ./output_images/video_image_undistort_result.png "Road Transformed"
 [image3]: ./output_images/current_masking_pipeline.png "Binary Pipeline"
 [image4]: ./output_images/perspective_transform_result.jpg "Warp Example"
 [image5a]: ./output_images/lane_detection_mask_warped_no_prior_information.png "Fit Visual windowing no prior"
