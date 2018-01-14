@@ -115,7 +115,8 @@ Notice that the windows are present in this output but not the final videos subm
 
 ### Discussion
 
-#### 1. Shortcomings and pitfalls of the algorithm
+#### 1. Current shortcomings and potential future improvements
+
 The next section covers all the next steps that I can think of for improving the performance of the pipeline on more challenging aspects of the problem. Here is the output for the challenge video provided.
 
 [![Project video output](https://img.youtube.com/vi/lt7cC0eb5xQ/mqdefault.jpg)](https://youtu.be/lt7cC0eb5xQ "Challenge video output")
