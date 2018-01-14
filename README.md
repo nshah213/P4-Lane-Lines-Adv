@@ -105,7 +105,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
-Here's a [![link to my video result](https://youtu.be/TEVjFoscgBM)](https://youtu.be/TEVjFoscgBM "Project video output")
+Here's a [![Project video output](https://youtu.be/TEVjFoscgBM)](https://youtu.be/TEVjFoscgBM "Project video output")
 
 ---
 
