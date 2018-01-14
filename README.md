@@ -103,9 +103,8 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![Project video output](https://img.youtube.com/vi/TEVjFoscgBM/mqdefault.jpg)](https://youtu.be/TEVjFoscgBM "Project video output")
 
-[![Project video output](https://www.youtube.com/upload_thumbnail?v=TEVjFoscgBM&t=hqdefault&ts=1515881719117)](https://youtu.be/TEVjFoscgBM "Project video output")
 
 ---
 
