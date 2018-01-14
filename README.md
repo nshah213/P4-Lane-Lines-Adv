@@ -114,4 +114,5 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
 
-Here's a [link to my video result](https://youtu.be/lt7cC0eb5xQ)
+[![Project video output](https://img.youtube.com/vi/lt7cC0eb5xQ/mqdefault.jpg)](https://youtu.be/lt7cC0eb5xQ "Challenge video output")
+
